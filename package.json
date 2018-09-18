@@ -1,0 +1,31 @@
+{
+  "name": "sync",
+  "version": "1.0.0",
+  "description": "Async callbacks is the very basics of understanding how to use asyncronous code in JavaScript",
+  "main": "main.js",
+  "scripts": {
+    "test-utils": "mocha ./spec/utils.spec.js",
+    "test-dev": "mocha ./spec/main.spec.js",
+    "test": "mocha ./spec/*.spec.js --bail",
+    "lint": "eslint ./",
+    "posttest": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanScott85/sync.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanScott85/sync/issues"
+  },
+  "homepage": "https://github.com/NathanScott85/sync#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.6.0",
+    "mocha": "^5.2.0",
+    "sinon": "^6.3.4"
+  }
+}
